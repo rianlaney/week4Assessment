@@ -12,7 +12,7 @@ const { getCompliment, addCompliment, deleteCompliment } = require('./controller
 
 //body
 app.get("/api/compliment", getCompliment);
-app.post("/api/compliment/:id", addCompliment);
+app.post("/api/compliment/", addCompliment);
 app.delete("/api/compliment/:id", deleteCompliment);
 
 
